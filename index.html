@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>myClock</title>
+	<meta charset="utf-8">
+</head>
+<body>
+<div id="myClock">
+	<span>hh</span>:<span>mm</span>:<span></span><span>    </span><span>dd</span>
+	<div>
+		<input onclick="myClock.setMinuteUp()" type="button" value="Крутим минуты вперед">
+		<input onclick="myClock.setMinuteDown()" type="button" value="Крутим минуты назад">
+		<input onclick="myClock.setDateUp()" type="button" value="Крутим дату">
+	</div>
+</div>
+</body>
+</html>
+
+
+
+
+<script type="text/javascript" src="./script.js"></script>
+<style>
+    #myClock{
+        text-align: center;
+        height: 100vh;
+        line-height: 10vh;
+        font-size: 40px;
+    }
+
+</style>
